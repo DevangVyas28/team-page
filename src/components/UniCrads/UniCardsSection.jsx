@@ -11,27 +11,27 @@ const uniData = [
     img: uniImageOne,
   },
   {
-    name: "Cambridge University",
+    name: "Havard University",
     img: uniImageTwo,
   },
   {
-    name: "Cambridge University",
+    name: "University of california",
     img: uniImageThree,
   },
   {
-    name: "Cambridge University",
+    name: "University of Edinberg",
     img: uniImageFour,
   },
   {
-    name: "Cambridge University",
+    name: "University of Illinois",
     img: uniImageTwo,
   },
   {
-    name: "Cambridge University",
+    name: "Stanford University",
     img: uniImageFour,
   },
   {
-    name: "Cambridge University",
+    name: "ETH Zürich",
     img: uniImageTwo,
   },
   {
@@ -42,9 +42,9 @@ const uniData = [
 
 const UniCardsSection = () => {
   return (
-    <div className="px-4 md:px-32">
+    <div className="my-16 px-4 md:px-32">
       <div className="my-8">
-        <p className=" md:text-2xl text-transparent bg-clip-text bg-gradient-to-t from-[#234EB0] to-[#9010B0]">
+        <p className="text-center md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#234EB0] to-[#9010B0]">
           Learn from Scientists, researchs and scholors from the top institutes
           in the world
         </p>

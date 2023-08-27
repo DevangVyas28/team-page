@@ -5,7 +5,7 @@ import UniCardsSection from "./components/UniCrads/UniCardsSection";
 
 export const App = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
       <UniCardsSection />
       <MentorCardsSection />
